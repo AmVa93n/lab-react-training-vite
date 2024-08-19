@@ -49,6 +49,7 @@
 
 .idCard > img {
   margin-right: 5px;
+  max-width: 128px;
 }
 
 .idCard p {
@@ -134,4 +135,26 @@
   width: 50px;
   height: 50px;
   text-align: center;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  height: 200px;
+  margin: 0 auto;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.signup button {
+  width: fit-content;
+}
+
+.colorPicker {
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+  margin-right: 5px;
 }
